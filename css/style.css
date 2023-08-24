@@ -1,0 +1,97 @@
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    border: none;
+}
+/* menu de navegação */
+.navbar{
+    background-color:#005480 !important;
+}
+
+.navbar a{
+    color: #fff !important;
+}
+
+.navbar a:hover{
+    color: #ff00ff !important;
+}
+
+.navbar button{
+    color:#fff !important;
+    background-color: #005480 !important;
+} 
+.navbar button:hover{
+    color: #ff00ff !important;
+}
+
+a.dropdown-item{
+    color: #005480 !important;
+}
+.dropdown-item a:hover{
+    color: #ff00ff;
+}
+
+
+/* banner */
+.carousel-item img{
+    height: 505px;
+    padding-left: 1px;
+}
+
+h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 50px 0 50px 0;
+    color: #005480;
+}
+
+/* Sectio de Produtos */
+
+h2, h3,h4,h5, h6{
+    color: #005480;
+    font-size: 23px;
+}
+h4{
+    margin-top: 5px;
+}
+
+h5{
+    margin-bottom: 20px;
+}
+
+.card-img-top01{
+    height:170px;
+}
+.card-img-top04{
+    height:170px;
+}
+
+
+.card-text-04{
+    margin-top: 10px;
+}
+.btn01{
+    margin-top: 5px;
+}
+
+/* 
+.btn{
+    transition: 1s all;
+    analisar no bootstrap o elemento que faz o botão aumentar ao passar o mouse
+    usar este mesmo elemento para as imagens
+} */ 
+
+.produto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
