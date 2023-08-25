@@ -80,18 +80,51 @@ h5{
     margin-top: 5px;
 }
 
-/* 
-.btn{
-    transition: 1s all;
-    analisar no bootstrap o elemento que faz o botão aumentar ao passar o mouse
-    usar este mesmo elemento para as imagens
-} */ 
-
-.produto{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#cards{
+    flex-wrap: wrap !important;
+    justify-content: space-between;
+    padding-right: 180px;
+    width: 1200px;
+    font-size: 16px;
 }
 
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
 
+.maps {
+    margin: 10px 10px 70px 30px;
+}
 
+label{
+    color: #fff;
+    margin: 10px;
+}   
+
+.contato{
+    margin: 10px 50px 75px 90px;
+    /* border: 1px solid green; */
+    padding: 60px 120px 40px 50px;
+    background-color: #005480;
+    height: 500px;
+}
+
+.contato p{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+input{
+    text-align: center;
+    width: 210px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    border: 1px solid #005480;
+}

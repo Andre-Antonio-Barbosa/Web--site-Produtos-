@@ -2,7 +2,7 @@
 /*
 construindo a código de API
 */
-fetch('https://fakestoreapi.com/products?limit=6')
+fetch('https://fakestoreapi.com/products?limit=4')
     .then(function (retornoAPI) {               // chamando a API
         console.log('respostaAPI', retornoAPI) // visualizar como esta vindo a resposta da API
 
@@ -25,9 +25,8 @@ fetch('https://fakestoreapi.com/products?limit=6')
                 for (let i in retornoEmJson) {
                     // após o loop, será inserido os cards dentro da variável cards, e mantém a sequência e exibindo os cards 
                     cards += `  
-                    <div>
-                    <div class="row d-flex align-content-center justify-content-center">
-                        <div class="col-6">
+        
+                        <div class="col-2">
                             <div class="card" style="width: 18rem;">
                                 <img class="card-img-top01" src="${retornoEmJson[i].image}" alt="Processador Gamer"
                                     title="">  
@@ -38,10 +37,11 @@ fetch('https://fakestoreapi.com/products?limit=6')
                                 </div>
                             </div>
                         </div>
+                        
                     `
                 }
 
-                //aqui será exibido os cards, através da referncia citada via id = cards
+                //aqui será exibido os cards, através da referencia citada via id = cards
                 document.querySelector('#cards').innerHTML = cards;
 
             })
