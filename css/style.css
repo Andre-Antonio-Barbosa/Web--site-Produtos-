@@ -105,7 +105,6 @@ label{
 
 .contato{
     margin: 10px 50px 75px 90px;
-    /* border: 1px solid green; */
     padding: 60px 120px 40px 50px;
     background-color: #005480;
     height: 500px;
@@ -120,11 +119,94 @@ label{
 input{
     text-align: center;
     width: 210px;
+    font-size: 13px;
+}
+
+#nome{
+    margin-left: 17px;
+}
+
+#email{
+    margin-left: 17px; 
+}
+
+button{
+   display: block;
+   justify-content: center;
+   align-items: center;
+   margin: 50px 100px 1px 150px;
+   font-size: 17px;
+   width: 60px;
+   height: 30px;
+   border: 1px solid #005480;
+   border-radius: 8px 8px;
+   cursor: pointer;
+}
+
+button:hover{
+    color: #ff00ff !important;
+    font-weight: 400;
+    outline-color:#005480;
+}
+
+
+.fansowe{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    float: left;
+    margin: 100px 100px 1px 150px;
+    gap: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#linkedin{
+    color: #fff;
+}
+
+#linkedin:hover{
+    color:#0e76a8
+}
+
+#youtube{
+    color: #fff;
+}
+#youtube:hover{
+    color:#c4302b;
+}
+
+#whatsapp{
+    color: #fff;
+}
+
+#whatsapp:hover{
+    color:#a4c639;
+}
+
+footer{
+    margin: 0px 0 22px;
+    /* padding-bottom: 5px; */
+    padding: 15px 0 1px 0;
+    /* background:#005480; */
+    /* border: 1px solid #005480; */
+    height: 40px;
 }
 
 footer p{
     text-align: center;
     font-size: 15px;
     width: 100%;
-    border: 1px solid #005480;
+    margin: -20px 0 3px 0;
+    padding-top: 25px;
+    color: black;
+    height: 40px;
+}
+
+#git{
+    font-weight: 600;
+}
+
+#git:hover{
+    color: #171515;
 }
