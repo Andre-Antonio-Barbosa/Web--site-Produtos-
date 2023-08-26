@@ -1,9 +1,10 @@
 # Web--site-Produtos-
-Landing Page em HTML, CSS, Javascript - usando boostrap e consumindo API
-Mais um projeto realizado mediante ao curso 'Front End Developer' junto MFX Academy, braço educacional da startup grupo MFX Tecnologia.
+Landing Page Produtos, aplicação prática em HTML, CSS e Javascript - usando boostrap e consumindo API
+Projeto realizado mediante ao curso 'Front End Developer' junto MFX Academy, braço educacional da startup grupo MFX Tecnologia.
 
-Objetivo deste site, é aplicar os conceitos de HTML, CSS e javascript, bem como aplicação do Boostrap 5 e aplicando os conseitos de API 
-Rest. 
-Nome da API utlizada,  'Fake Store' https://fakestoreapi.com/
+Objetivo deste site, é aplicar na prática os conceitos de HTML, CSS e javascript, usando Boostrap 5 e aplicando os conceitos de Consumo de API Rest
+No banner principal do site, está sendo usado o efeito carrossel em boostrap
+Nome da API utlizada,  'Fake Store' https://fakestoreapi.com/ é uma API que apresenta um catalogo de roupas.
 
-Aplicando o metodo fecth em javascript e utlizando em banner 'carrosel' para melhor vizualização e estilagem da página
+
+Em javascript usado o metodo fecth para chamada da API
