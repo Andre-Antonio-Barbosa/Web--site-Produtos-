@@ -65,6 +65,10 @@ h5{
     margin-bottom: 20px;
 }
 
+.card{
+    gap: 2px;
+}
+
 .card-img-top01{
     height:170px;
 }
@@ -83,8 +87,12 @@ h5{
 #cards{
     flex-wrap: wrap !important;
     justify-content: space-between;
-    padding-right: 180px;
     width: 1200px;
+    font-size: 16px;
+    gap: 2px;
+}
+
+.card-text{
     font-size: 16px;
 }
 
@@ -163,6 +171,7 @@ button:hover{
 
 #linkedin{
     color: #fff;
+    font-size: 20px;
 }
 
 #linkedin:hover{
@@ -171,6 +180,7 @@ button:hover{
 
 #youtube{
     color: #fff;
+    font-size: 20px;
 }
 #youtube:hover{
     color:#c4302b;
@@ -178,6 +188,7 @@ button:hover{
 
 #whatsapp{
     color: #fff;
+    font-size: 20px;
 }
 
 #whatsapp:hover{
@@ -195,7 +206,8 @@ footer{
 
 footer p{
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
+    font-weight: 550;
     width: 100%;
     margin: -20px 0 3px 0;
     padding-top: 25px;
@@ -204,9 +216,26 @@ footer p{
 }
 
 #git{
-    font-weight: 600;
+    font-size: 20px;
 }
 
 #git:hover{
     color: #171515;
+}
+
+.descricao{
+    font-size: 15px;
+}
+
+.btn{
+    float: right;
+    margin-left: 15px;
+}
+
+#pesquisar{
+    margin-left: 1px;
+    outline: #fff;
+    width: 90px;
+    height: 40px;
+    padding: 5px 5px;
 }

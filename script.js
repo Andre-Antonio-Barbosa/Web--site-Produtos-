@@ -27,12 +27,16 @@ fetch('https://fakestoreapi.com/products?limit=4')
                     cards += `  
         
                         <div class="col-2">
-                            <div class="card" style="width: 18rem;">
+                            <div class="card" style="width: 18rem;" id="cards">
                                 <img class="card-img-top01" src="${retornoEmJson[i].image}" alt="Processador Gamer"
                                     title="">  
                                 <div class="card-body">
                                     <h2 class="card-title">${retornoEmJson[i].title}</h2>
-                                    <p class="card-text">${retornoEmJson[i].description}</p>
+                                    <div class="descricao"> 
+                                    <p class="card-text">${retornoEmJson[i].description}
+                                    </p>
+                                    </div>
+                                    
                                     <a href="#" class="btn btn-primary">Visitar</a>
                                 </div>
                             </div>
